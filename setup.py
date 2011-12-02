@@ -19,7 +19,8 @@ setup(
     zip_safe=True,
     install_requires=[
         'fabric',
-#        'PyQt'],
+#        'PyQt'
+    ],
     test_suite = 'zync.tests.test_suite',
     entry_points={
         'console_scripts': [
